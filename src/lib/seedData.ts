@@ -24,7 +24,7 @@ export const seedColleges: College[] = [
     name: "Creative Arts Academy",
     description: "Where creativity meets technology. Specializing in digital arts and design.",
     location: "New York, NY",
-    imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&auto=format&fit=crop",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGI83_W_ccrbXvJ-3KdYD21FpFn3RWYGijCw&s",
     branches: ["branch-6", "branch-7"],
     createdAt: new Date("2024-01-03"),
   },
