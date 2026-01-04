@@ -29,7 +29,7 @@ const Index = () => {
           <div className="mx-auto max-w-3xl text-center">
             <Badge className="mb-4 bg-white/10 text-white hover:bg-white/20" variant="secondary">
               <Sparkles className="mr-1.5 h-3 w-3" />
-              Hackathon 2024 Project
+              Hackathon 2026 Project
             </Badge>
             <h1 className="mb-6 font-display text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
               Your Gateway to{" "}
