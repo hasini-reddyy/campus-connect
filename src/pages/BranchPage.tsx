@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+// import { Footer } from "@/components/Footer";
 import { VideoList } from "@/components/VideoList";
 import { EventList } from "@/components/EventList";
 import { ProjectList } from "@/components/ProjectList";
@@ -42,7 +42,7 @@ const BranchPage = () => {
             <Link to="/">Go Back Home</Link>
           </Button>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
@@ -169,7 +169,7 @@ const BranchPage = () => {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
