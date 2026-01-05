@@ -121,8 +121,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Demo Mode Notice */}
-      {isDemoMode && (
+      {/* /* {/* Demo Mode Notice */}
+      {/*{isDemoMode && (
         <section className="border-t border-border bg-secondary/10 py-8">
           <div className="container">
             <div className="rounded-lg border border-secondary/30 bg-secondary/5 p-6 text-center">
@@ -139,7 +139,7 @@ const Index = () => {
             </div>
           </div>
         </section>
-      )}
+      )} */}
 
       {/* <Footer /> */}
     </div>
