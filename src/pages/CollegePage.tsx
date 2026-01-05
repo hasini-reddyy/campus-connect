@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+// import { Footer } from "@/components/Footer";
 import { BranchCard } from "@/components/BranchCard";
 import { useData } from "@/contexts/DataContext";
 import { Button } from "@/components/ui/button";
@@ -29,7 +29,7 @@ const CollegePage = () => {
             <Link to="/">Go Back Home</Link>
           </Button>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
@@ -147,7 +147,7 @@ const CollegePage = () => {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
