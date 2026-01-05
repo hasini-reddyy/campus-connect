@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+// import { Footer } from "@/components/Footer";
 import { CollegeCard } from "@/components/CollegeCard";
 import { useData } from "@/contexts/DataContext";
 import { useAuth } from "@/contexts/AuthContext";
@@ -141,7 +141,7 @@ const Index = () => {
         </section>
       )}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
